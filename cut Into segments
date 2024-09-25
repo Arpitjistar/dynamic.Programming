@@ -4,7 +4,7 @@
 Cut Into Segments
 
 #include<bits/stdc++.h>
-
+//using memoization reduce the time complexity
 int solveMem(int n,int x,int y, int z,vector<int>&dp){
 	if(n==0) return 0;
 
